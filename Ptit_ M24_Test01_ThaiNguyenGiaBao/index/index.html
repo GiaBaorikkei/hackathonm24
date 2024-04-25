@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div class="form">
+    <div class="header">
+      <div class="header-left">
+        <p>Player:<span id="resuPlayer"></span>
+        </p>
+        <p>Total points:<span id="resuPoin"></span>
+        </p>
+      </div>
+      <h1 class="header-right">Bảng điểm</h1>
+    </div>
+    <table border="1">
+      <tbody id="body">
+        <tr>
+          <td><button id="delete"></button></td>
+          <td class="playerName"><i class="fa-solid fa-crown"></i><p>Thái Nguyễn Gia Bảo</p></td>
+          <td><p class="quantity"><button id="reduce">-</button>${player.score}<button id="increasing">+</button></p></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="end">
+      <input id="add" class="add" type="text">
+      <button id="btAdd">ADD PLAYER</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

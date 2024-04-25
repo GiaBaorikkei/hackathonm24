@@ -1,0 +1,53 @@
+.form {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+}
+.header {
+    background-color: aqua;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    color: rgb(235, 235, 235);
+}
+.header-right{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    font-size: 30px;
+    
+}
+.playerName {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+.end {
+    background-color: aqua;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+.add {
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.header-left {
+    margin-left: 7px;
+    font-weight: 600;
+}
